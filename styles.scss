@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #F0EDCC;
+    color: #02343F;
+    header {
+        margin: auto;
+        height: 5vh;
+        width: 75vw;
+        font-family: 'Iceland', cursive;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        margin-bottom: 5vh;
+        .date {
+            margin: 2.5vh auto;
+            font-size: 1.5em;
+            height: 1vh;
+            font-family: 'Iceland', cursive;
+        }
+        .pic {
+            min-width: 300px;
+            width: 50vw;
+            height: 50vh;
+            margin: 5vh auto;
+            img,
+            iframe {
+                height: 100%;
+                width: 100%;
+                margin: auto;
+            }
+        }
+        .description {
+            min-width: 280px;
+            width: 50vw;
+            height: 20vh;
+            overflow: scroll;
+            font-family: monospace;
+            line-height: 2;
+        }
+    }
+}
