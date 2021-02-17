@@ -39,15 +39,16 @@ body {
             margin: 5vh auto;
             img,
             iframe {
-                height: 100%;
-                width: 100%;
-                margin: auto;
+                min-height: 200px;
+                max-height: 100%;
+                max-width: 100%;
+                margin-top: auto;
             }
         }
         .description {
             min-width: 280px;
             width: 50vw;
-            height: 20vh;
+            min-height: 20vh;
             overflow: scroll;
             font-family: monospace;
             line-height: 2;

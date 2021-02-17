@@ -43,14 +43,15 @@ body section .pic {
 }
 body section .pic img,
 body section .pic iframe {
-  height: 100%;
-  width: 100%;
-  margin: auto;
+  min-height: 200px;
+  max-height: 100%;
+  max-width: 100%;
+  margin-top: auto;
 }
 body section .description {
   min-width: 280px;
   width: 50vw;
-  height: 20vh;
+  min-height: 20vh;
   overflow: scroll;
   font-family: monospace;
   line-height: 2;
