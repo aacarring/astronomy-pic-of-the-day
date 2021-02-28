@@ -26,6 +26,7 @@ body section {
   min-height: 70vh;
   width: 75vw;
   margin: 5vh auto;
+  margin-bottom: 10vh;
 }
 body section .date-img {
   display: flex;
