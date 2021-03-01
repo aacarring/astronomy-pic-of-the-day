@@ -19,12 +19,15 @@ body {
         font-family: 'Iceland', cursive;
         font-size: 1.25em;
         margin-top: 10vh;
+        margin-bottom: 10vh;
     }
     section {
-        min-height: 70vh;
-        width: 75vw;
+        min-height: 100vh;
+        width: 100vw;
         margin: 5vh auto;
         margin-bottom: 10vh;
+        background: #f3f2e6;
+        box-shadow: 0px 5px 15px grey, 0px -5px 15px grey;
         .date-img {
             display: flex;
             flex-direction: column;
@@ -38,7 +41,7 @@ body {
             }
             .pic {
                 min-width: 300px;
-                margin: 5vh auto;
+                margin: 50px;
                 img,
                 iframe {
                     min-height: 200px;
@@ -51,10 +54,12 @@ body {
 
         }
         .description {
-            min-width: 280px;
+            min-width: 260px;
             max-width: 75vw;
             max-height: 50vh;
-            margin: 2vh 5vw;
+            margin: 0 auto;
+            margin-bottom: 5vh;
+            overflow: scroll;
             font-family: monospace;
             line-height: 3;
             font-size: 1.1em;
