@@ -14,12 +14,22 @@ body {
     background: #F0EDCC;
     color: #02343F;
     header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 10vh;
         width: 75vw;
         font-family: 'Iceland', cursive;
         font-size: 1.25em;
         margin-top: 10vh;
         margin-bottom: 5vh;
+        i {
+            margin: 20px;
+            font-size: 2.25em;
+            @media (max-width: 601px) {
+                font-size: 2em;
+            }
+        }
         @media (max-width: 382px) {
            font-size: 1em;
         }
