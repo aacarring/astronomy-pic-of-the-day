@@ -20,42 +20,51 @@ body {
         font-size: 1.25em;
         margin-top: 10vh;
         margin-bottom: 5vh;
+        @media (max-width: 382px) {
+           font-size: 1em;
+        }
     }
     section {
         min-height: 100vh;
-        width: 100vw;
+        min-width: 300px;
+        width: 85vw;
         margin: 5vh auto;
         margin-bottom: 10vh;
+        background: #f1f0e3;
+        border-radius: 15px;
+        box-shadow: 1px 3px 15px grey;
         .date-img {
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             .date {
-                margin: 2.5vh auto;
+                margin-top: 5vh;
                 font-size: 1.5em;
                 height: 1vh;
                 font-family: 'Iceland', cursive;
             }
             .pic {
-                min-width: 300px;
+                min-width: 280px;
                 margin: 50px;
                 img,
                 iframe {
                     min-height: 200px;
-                    max-height: 100%;
-                    min-width: 300px;
-                    max-width: 100%;
-                    margin-top: auto;
+                    max-height: 80%;
+                    min-width: 280px;
+                    max-width: 80%;
+                    margin: auto;
+                    border-radius: 5%;
                 }
             }
 
         }
         .description {
             min-width: 260px;
-            max-width: 75vw;
+            max-width: 70vw;
             max-height: 50vh;
             margin: 0 auto;
+            margin-bottom: 5vh;
             overflow: scroll;
             font-family: monospace;
             line-height: 3;
