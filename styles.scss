@@ -36,8 +36,8 @@ body {
     }
     section {
         min-height: 100vh;
-        min-width: 300px;
-        width: 85vw;
+        min-width: 310px;
+        width: 75vw;
         margin: 5vh auto;
         margin-bottom: 10vh;
         background: #f1f0e3;
@@ -60,7 +60,7 @@ body {
                 img,
                 iframe {
                     min-height: 200px;
-                    max-height: 80%;
+                    max-height: 100vh;
                     min-width: 280px;
                     max-width: 80%;
                     margin: auto;
@@ -71,7 +71,7 @@ body {
         }
         .description {
             min-width: 260px;
-            max-width: 70vw;
+            max-width: 60vw;
             max-height: 50vh;
             margin: 0 auto;
             margin-bottom: 5vh;
