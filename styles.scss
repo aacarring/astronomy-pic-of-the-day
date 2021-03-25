@@ -72,10 +72,9 @@ body {
         .description {
             min-width: 260px;
             max-width: 60vw;
-            max-height: 50vh;
+            min-height: 50vh;
             margin: 0 auto;
-            margin-bottom: 5vh;
-            overflow: scroll;
+            margin-bottom: 10vh;
             font-family: monospace;
             line-height: 3;
             font-size: 1.1em;
