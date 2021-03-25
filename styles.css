@@ -68,7 +68,7 @@ body section .date-img .pic {
 }
 body section .date-img .pic img,
 body section .date-img .pic iframe {
-  min-height: 200px;
+  min-height: 240px;
   max-height: 100vh;
   min-width: 280px;
   max-width: 100%;
